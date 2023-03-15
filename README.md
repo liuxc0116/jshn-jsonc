@@ -15,7 +15,6 @@ The plugin can be installed in Ubuntu via [PPA](https://code.launchpad.net/~stok
 
 ### From sources
 To build and install from sources:
-    `jsoc-c-dev版本至少1.13.1`
     sudo apt install cmake pkg-config libjson-c-dev
     git clone https://github.com/stokito/jshn-jsonc.git
     cd jshn-jsonc
@@ -25,6 +24,7 @@ To build and install from sources:
     make
     sudo make install
 
+    jsoc-c-dev版本至少1.13.1
 ## Fork
 This is a fork of OpenWrt jshn library that doesn't have a dependency to [libubox](https://gitlab.com/openwrt/project/libubox).
 Instead it uses internal functions from `linkhash.c` of json-c itself.
